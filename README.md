@@ -1,2 +1,2 @@
 # Disaster-Risk-Reduction-App-Plat-Tech-
-Project 
+In Partial Fullfilment for Platform Technologies
