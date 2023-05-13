@@ -15,12 +15,11 @@
 
     <include layout="@layout/content_main" />
 
-
-    <androidx.appcompat.widget.Toolbar
-        android:id="@+id/toolbar"
+    <androidx.gridlayout.widget.GridLayout
         android:layout_width="match_parent"
-        android:layout_height="?attr/actionBarSize"
-        android:background="?attr/colorPrimary"
-        app:popupTheme="@style/Theme.DisasterRisk.PopupOverlay" />
+        android:layout_height="match_parent">
+
+    </androidx.gridlayout.widget.GridLayout>
+
 
 </RelativeLayout>
