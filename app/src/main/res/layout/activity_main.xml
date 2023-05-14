@@ -9,8 +9,8 @@
 
     <ImageView
         android:id="@+id/logoHome"
-        android:layout_width="205dp"
-        android:layout_height="318dp"
+        android:layout_width="207dp"
+        android:layout_height="262dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -22,17 +22,26 @@
         android:id="@+id/getStart"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/start"
-        android:background="@drawable/start_menu_button_bg"
+        android:background="@drawable/startmenu_button_bg"
         android:onClick="nextPage"
+        android:text="@string/start"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.809" />
+        app:layout_constraintTop_toBottomOf="@+id/logoHome"
+        app:layout_constraintVertical_bias="0.686" />
 
-
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="371dp"
+        android:layout_height="49dp"
+        android:src="@drawable/DM"
+        app:layout_constraintBottom_toTopOf="@+id/getStart"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/logoHome"
+        app:layout_constraintVertical_bias="0.0" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
