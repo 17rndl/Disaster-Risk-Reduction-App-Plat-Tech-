@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -64,15 +64,17 @@
             app:layout_column="0"
             app:layout_row="1">
 
+    </androidx.cardview.widget.CardView>
+
     <androidx.cardview.widget.CardView
-        android:src="@drawable/books"
         android:layout_width="175dp"
         android:layout_height="205dp"
         android:layout_marginStart="28dp"
+        android:src="@drawable/books"
         app:layout_column="0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_row="1"
-        tools:layout_editor_absoluteY="219dp"/>
+        tools:layout_editor_absoluteY="219dp" />
 
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+</RelativeLayout>
