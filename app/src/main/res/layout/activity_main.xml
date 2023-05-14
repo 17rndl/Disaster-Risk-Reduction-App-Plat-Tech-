@@ -23,7 +23,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="@drawable/startmenu_button_bg"
-        android:onClick="nextPage"
+
         android:text="@string/start"
         android:textColor="#ffffff"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -37,7 +37,7 @@
         android:id="@+id/imageView"
         android:layout_width="371dp"
         android:layout_height="49dp"
-        android:src="@drawable/DM"
+        android:src="@drawable/title_start"
         app:layout_constraintBottom_toTopOf="@+id/getStart"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
